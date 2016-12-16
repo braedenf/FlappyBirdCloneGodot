@@ -127,6 +127,7 @@ class FlappingState:
 	func input(event):
 		#Checks the input map for flap command and triggers once when action is pressed
 		if event.is_action_pressed("flap"):
+			print("flap")
 			flap()
 		pass
 
